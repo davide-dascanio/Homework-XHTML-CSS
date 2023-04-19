@@ -1,0 +1,44 @@
+body{
+    background-color: #f0e68c;
+    margin: 0;
+}
+
+.header1{
+    font-family: Georgia;
+    text-align: center;
+    font-size: 16px;
+    height: 100px;
+    padding-top: 10px;
+    color: white;
+    background-color: green;
+    overflow: auto;
+}
+
+.wrapper{
+    background-color: #f1f68c;
+    font-family: Times New Roman;
+    text-align:justify;
+    font-size:23px;
+    margin: auto;
+    text-decoration: none;
+    width: 820px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    overflow: auto;
+}
+
+.footer{
+    width:820px;
+    height: 100px;
+    background-color: green;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 10px;
+    margin: auto;
+    overflow:auto;
+}
+
+
+
