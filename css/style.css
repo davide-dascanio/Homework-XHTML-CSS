@@ -38,6 +38,11 @@ ol li{
     padding-bottom: 10px;
 }
 
+img#collage{
+    float: right;
+    border-radius: 20px;
+}
+
 .footer{
     width:820px;
     height: 100px;
