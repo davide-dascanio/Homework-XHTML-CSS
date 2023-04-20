@@ -43,6 +43,25 @@ img#collage{
     border-radius: 20px;
 }
 
+.capitoli{
+    width: 820px;
+    height: 75px;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    font-family: Georgia;
+    color:red;
+    overflow: auto;
+}
+
+.view{
+    border-radius: 10px;
+}
+
 .footer{
     width:820px;
     height: 100px;
