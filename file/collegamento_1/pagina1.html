@@ -7,7 +7,8 @@
 	<head>
 		<title>1 - La Grande Muraglia Cinese</title>
 		<link rel="stylesheet" type="text/css" href="../../css/style.css"/>
-	</head>
+		<script src="../../script.js" type="text/javascript"></script>
+	</head>		
 	<body>
 		<div class="header1">
 			<h1> LE SETTE MERAVIGLIE DEL MONDO MODERNO </h1>
@@ -39,9 +40,34 @@
 				cinese &egrave; di 8851.8 chilometri, la lunghezza di tutta la Grande Muraglia costruita
 				nel corso di migliaia di anni, &egrave; stimato a 21,196.18 chilometri.
 			</p>
-			<img class="view" src="img/grande_muraglia_cinese.jpg" width="450px" height="277px" alt="immagine non trovata" />
-			<p><a href="../../index.html">Home</a></p>
+			<div class="posizioneimg">
+				<div> <img src="img/grande_muraglia_cinese.jpg" width="370px" height="277px" alt="immagine non trovata" /> </div> 
+				<div> <img src="img/muraglia.jpg" width="350px" height="277px" alt="immagine non trovata" /> </div>  
+				<div> <img src="img/muraglia2.jpg" width="350px" height="277px" alt="immagine non trovata" />  </div>
+			</div>
 		</div>
+		<div class="nav">
+			<ul>
+				<li><a class="active" href="../../index.html">HOME</a></li>
+				<li><a href="../collegamento_2/pagina2.html">NEXT PAGE</a></li>	
+				<li class="posizione">
+					<a href="javascript:void(0)" style="cursor:pointer" onclick="apriNavFull()"> MORE </a>
+				</li>
+			</ul>
+		</div>
+		<div id="navigatore" class="sovrapposizione">
+			<a href="javascript:void(0)" class="chiusuraNav" onclick="chiudiNavFull()">&times;</a>
+			<div class="sovrapposizione-cont">
+				<a href="../../index.html">HOME</a>
+				<a href="">Grande Muraglia Cinese, Cina </a>
+				<a href="../collegamento_2/pagina2.html">Petra, Giordania </a>
+				<a href="../collegamento_3/pagina3.html">Cristo Redentore, Rio de Janeiro </a>
+				<a href="../collegamento_4/pagina4.html">Machu Picchu, Cusco - Per&ugrave; </a>
+				<a href="../collegamento_5/pagina5.html">Chich&eacute;n Itz&aacute;, Yucat&agrave;n - Messico </a>
+				<a href="../collegamento_6/pagina6.html">Colosseo, Roma - Italia </a>
+				<a href="../collegamento_7/pagina7.html">Taj Mahal, Agra - India </a>
+			</div>
+		  </div>
 		<div class="footer">
 			<p> D'Ascanio Project  <br /> &copy; 2023 </p>
 		</div>
